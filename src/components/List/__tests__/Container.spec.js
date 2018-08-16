@@ -67,11 +67,9 @@ describe("<ListContainer />", () => {
                 totalSections={4}
                 key={section.title}
               >
-                {section.items
-                  .slice(0, 4)
-                  .map(sectionItem => (
-                    <SectionItem item={sectionItem} key={sectionItem.title} />
-                  ))}
+                {section.items.slice(0, 4).map(sectionItem => (
+                  <SectionItem item={sectionItem} key={sectionItem.title} />
+                ))}
               </Section>
             ))}
           </ListRow>
@@ -99,11 +97,9 @@ describe("<ListContainer />", () => {
                 totalSections={4}
                 key={section.title}
               >
-                {section.items
-                  .slice(0, 4)
-                  .map(sectionItem => (
-                    <SectionItem item={sectionItem} key={sectionItem.title} />
-                  ))}
+                {section.items.slice(0, 4).map(sectionItem => (
+                  <SectionItem item={sectionItem} key={sectionItem.title} />
+                ))}
               </Section>
             ))}
           </ListRow>
@@ -130,11 +126,9 @@ describe("<ListContainer />", () => {
                 totalSections={4}
                 key={section.title}
               >
-                {section.items
-                  .slice(0, 4)
-                  .map(sectionItem => (
-                    <SectionItem item={sectionItem} key={sectionItem.title} />
-                  ))}
+                {section.items.slice(0, 4).map(sectionItem => (
+                  <SectionItem item={sectionItem} key={sectionItem.title} />
+                ))}
               </Section>
             ))}
           </ListRow>
@@ -161,11 +155,9 @@ describe("<ListContainer />", () => {
                 totalSections={4}
                 key={section.title}
               >
-                {section.items
-                  .slice(0, 4)
-                  .map(sectionItem => (
-                    <SectionItem item={sectionItem} key={sectionItem.title} />
-                  ))}
+                {section.items.slice(0, 4).map(sectionItem => (
+                  <SectionItem item={sectionItem} key={sectionItem.title} />
+                ))}
               </Section>
             ))}
           </ListRow>
@@ -195,11 +187,9 @@ describe("<ListContainer />", () => {
                 totalSections={4}
                 key={section.title}
               >
-                {section.items
-                  .slice(0, 4)
-                  .map(sectionItem => (
-                    <SectionItem item={sectionItem} key={sectionItem.title} />
-                  ))}
+                {section.items.slice(0, 4).map(sectionItem => (
+                  <SectionItem item={sectionItem} key={sectionItem.title} />
+                ))}
               </Section>
             ))}
           </ListRow>
@@ -262,5 +252,15 @@ describe("<ListContainer />", () => {
     const portal = queryByTestId("modal-root");
     Simulate.click(portal.querySelector(".button--close"));
     expect(container).toMatchSnapshot();
+  });
+
+  it("should allow default events", () => {
+    const { container } = renderIntoDocument(
+      <ListContainer>
+        <a href="/external">External URL</a>
+      </ListContainer>
+    );
+
+    Simulate.click(container.querySelector("a"));
   });
 });
