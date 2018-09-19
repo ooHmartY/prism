@@ -218,6 +218,7 @@ exports[`Gradient renders with spotlight elements 1`] = `
   >
     <svg
       className="c2"
+      id="spotlightLeft"
       preserveAspectRatio="xMinYMid meet"
       viewBox="0 0 1440 218"
       xmlns="http://www.w3.org/2000/svg"
@@ -290,6 +291,7 @@ exports[`Gradient renders with spotlight elements 1`] = `
     </svg>
     <svg
       className="c3"
+      id="spotlightAngle"
       preserveAspectRatio="xMaxYMid meet"
       viewBox="0 0 476 218"
       xmlns="http://www.w3.org/2000/svg"

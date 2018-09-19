@@ -305,6 +305,7 @@ exports[`Drawer renders default drawer 1`] = `
       >
         <svg
           className="c4"
+          id="spotlightLeft"
           preserveAspectRatio="xMinYMid meet"
           viewBox="0 0 1440 218"
           xmlns="http://www.w3.org/2000/svg"
@@ -377,6 +378,7 @@ exports[`Drawer renders default drawer 1`] = `
         </svg>
         <svg
           className="c5"
+          id="spotlightAngle"
           preserveAspectRatio="xMaxYMid meet"
           viewBox="0 0 476 218"
           xmlns="http://www.w3.org/2000/svg"
@@ -761,6 +763,7 @@ exports[`Drawer renders header elements 1`] = `
       >
         <svg
           className="c4"
+          id="spotlightLeft"
           preserveAspectRatio="xMinYMid meet"
           viewBox="0 0 1440 218"
           xmlns="http://www.w3.org/2000/svg"
@@ -833,6 +836,7 @@ exports[`Drawer renders header elements 1`] = `
         </svg>
         <svg
           className="c5"
+          id="spotlightAngle"
           preserveAspectRatio="xMaxYMid meet"
           viewBox="0 0 476 218"
           xmlns="http://www.w3.org/2000/svg"
@@ -1224,6 +1228,7 @@ exports[`Drawer renders multiple child elements 1`] = `
       >
         <svg
           className="c4"
+          id="spotlightLeft"
           preserveAspectRatio="xMinYMid meet"
           viewBox="0 0 1440 218"
           xmlns="http://www.w3.org/2000/svg"
@@ -1296,6 +1301,7 @@ exports[`Drawer renders multiple child elements 1`] = `
         </svg>
         <svg
           className="c5"
+          id="spotlightAngle"
           preserveAspectRatio="xMaxYMid meet"
           viewBox="0 0 476 218"
           xmlns="http://www.w3.org/2000/svg"
@@ -1709,6 +1715,7 @@ exports[`Drawer renders string header header 1`] = `
       >
         <svg
           className="c4"
+          id="spotlightLeft"
           preserveAspectRatio="xMinYMid meet"
           viewBox="0 0 1440 218"
           xmlns="http://www.w3.org/2000/svg"
@@ -1781,6 +1788,7 @@ exports[`Drawer renders string header header 1`] = `
         </svg>
         <svg
           className="c5"
+          id="spotlightAngle"
           preserveAspectRatio="xMaxYMid meet"
           viewBox="0 0 476 218"
           xmlns="http://www.w3.org/2000/svg"

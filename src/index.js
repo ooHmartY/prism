@@ -21,6 +21,8 @@ export { default as NavBar } from "./components/NavBar";
 export { default as Row } from "./components/Grid/Row";
 export { default as SearchInput } from "./components/Input/Search";
 export { default as Spacing } from "./components/Spacing";
+export { default as SvgProvider } from "./components/Svg/Provider";
+export { default as Svg } from "./components/Svg";
 export { default as Breadcrumb } from "./components/Breadcrumbs";
 export { default as ContainerBlock } from "./components/Container/Block.styles";
 export { ResponsiveImage, StaticImage } from "./components/Image";

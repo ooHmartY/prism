@@ -2,8 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
+import Svg from "../Svg";
+
 const SpotLight = ({ className }) => (
-  <svg
+  <Svg
+    id="spotlightLeft"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 1440 218"
@@ -34,7 +37,7 @@ const SpotLight = ({ className }) => (
       <use fill="url(#a)" xlinkHref="#b" />
       <use fill="url(#c)" xlinkHref="#b" />
     </g>
-  </svg>
+  </Svg>
 );
 
 SpotLight.propTypes = {
